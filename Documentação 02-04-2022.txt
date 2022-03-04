@@ -1,0 +1,4 @@
+Este é um arquivo de texto da linha 1
+Este é um arquivo de texto da linha 2
+Este é um arquivo de texto da linha 3
+Este é um arquivo de texto da linha 4
