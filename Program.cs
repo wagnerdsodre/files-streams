@@ -1,5 +1,7 @@
 ﻿using static System.Console;
-//Criando um path combinado
+
+static void Demo1(){
+    //Criando um path combinado
 //var path = Path.Combine(Environment.CurrentDirectory , "file.txt");
 //var path = Path.Combine(@"c:\temp" , "file.txt");
 
@@ -48,3 +50,17 @@ static string validateName (string name){
 
 }
 
+}
+
+
+var path = Path.Combine(Environment.CurrentDirectory,"receitas");
+var diretory = Directory.CreateDirectory(path);
+var subBolo = diretory.CreateSubdirectory("Bolo");
+var subBrig = diretory.CreateSubdirectory("Brigadeiro");
+var subPudin = diretory.CreateSubdirectory("Pudin");
+
+var pathSuco = Path.Combine(Environment.CurrentDirectory,"Sucos");
+var diretorySucos = Directory.CreateDirectory(pathSuco);
+var subAce = diretorySucos.CreateSubdirectory("Acerola");
+var subLar = diretorySucos.CreateSubdirectory("Laranja");
+var subUva = diretorySucos.CreateSubdirectory("Uva");
